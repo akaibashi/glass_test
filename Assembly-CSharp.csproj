@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{50696995-4974-BCA5-2D66-AAA7EBBDB040}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_2;UNITY_5_6;UNITY_5;UNITY_64;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VR;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;CROSS_PLATFORM_INPUT</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Exploder\Benchmark\Benchmark.cs" />
+     <Compile Include="Assets\Exploder\Demo\Scripts\CursorLocking.cs" />
+     <Compile Include="Assets\Exploder\Demo\Scripts\ExploderMouseLook.cs" />
+     <Compile Include="Assets\Exploder\Demo\Scripts\GrenadeController.cs" />
+     <Compile Include="Assets\Exploder\Demo\Scripts\GrenadeObject.cs" />
+     <Compile Include="Assets\Exploder\Demo\Scripts\PanelChairBomb.cs" />
+     <Compile Include="Assets\Exploder\Demo\Scripts\PanelResetScene.cs" />
+     <Compile Include="Assets\Exploder\Demo\Scripts\PanelThrowObject.cs" />
+     <Compile Include="Assets\Exploder\Demo\Scripts\RPGController.cs" />
+     <Compile Include="Assets\Exploder\Demo\Scripts\RobotScript.cs" />
+     <Compile Include="Assets\Exploder\Demo\Scripts\Rocket.cs" />
+     <Compile Include="Assets\Exploder\Demo\Scripts\ShotgunController.cs" />
+     <Compile Include="Assets\Exploder\Demo\Scripts\TargetManager.cs" />
+     <Compile Include="Assets\Exploder\Demo\Scripts\ThrowObject.cs" />
+     <Compile Include="Assets\Exploder\Demo\Scripts\UseObject.cs" />
+     <Compile Include="Assets\Exploder\Demo\Scripts\WeaponManager.cs" />
+     <Compile Include="Assets\Exploder\DemoClickExplode\DemoClickExplode.cs" />
+     <Compile Include="Assets\Exploder\DemoClickExplode\DemoClickPartialExplode.cs" />
+     <Compile Include="Assets\Exploder\DemoClickExplode\DemoSelfExplode.cs" />
+     <Compile Include="Assets\Exploder\DemoSimple\DemoSimple.cs" />
+     <Compile Include="Assets\Exploder\Examples\ExplodeAllObjects.cs" />
+     <Compile Include="Assets\Exploder\Examples\HowToGetActiveFragments.cs" />
+     <Compile Include="Assets\Exploder\Examples\QuickStart.cs" />
+     <Compile Include="Assets\Exploder\Examples\TweenFragment.cs" />
+     <Compile Include="Assets\Exploder\Exploder\Core\Array.cs" />
+     <Compile Include="Assets\Exploder\Exploder\Core\ArrayDictionary.cs" />
+     <Compile Include="Assets\Exploder\Exploder\Core\BakeSkinManager.cs" />
+     <Compile Include="Assets\Exploder\Exploder\Core\Contour.cs" />
+     <Compile Include="Assets\Exploder\Exploder\Core\Core.cs" />
+     <Compile Include="Assets\Exploder\Exploder\Core\CrackManager.cs" />
+     <Compile Include="Assets\Exploder\Exploder\Core\CrackedObject.cs" />
+     <Compile Include="Assets\Exploder\Exploder\Core\CuttingPlane.cs" />
+     <Compile Include="Assets\Exploder\Exploder\Core\ExploderQueue.cs" />
+     <Compile Include="Assets\Exploder\Exploder\Core\ExploderTransform.cs" />
+     <Compile Include="Assets\Exploder\Exploder\Core\LSHash.cs" />
+     <Compile Include="Assets\Exploder\Exploder\Core\Mesh.cs" />
+     <Compile Include="Assets\Exploder\Exploder\Core\MeshCutter.cs" />
+     <Compile Include="Assets\Exploder\Exploder\Core\MeshObject.cs" />
+     <Compile Include="Assets\Exploder\Exploder\Core\MeshUtils.cs" />
+     <Compile Include="Assets\Exploder\Exploder\Core\Plane.cs" />
+     <Compile Include="Assets\Exploder\Exploder\Core\Polygon.cs" />
+     <Compile Include="Assets\Exploder\Exploder\Core\Tasks\CutterMT.cs" />
+     <Compile Include="Assets\Exploder\Exploder\Core\Tasks\CutterST.cs" />
+     <Compile Include="Assets\Exploder\Exploder\Core\Tasks\CutterWorker.cs" />
+     <Compile Include="Assets\Exploder\Exploder\Core\Tasks\ExploderTask.cs" />
+     <Compile Include="Assets\Exploder\Exploder\Core\Tasks\IsolateMeshIslands.cs" />
+     <Compile Include="Assets\Exploder\Exploder\Core\Tasks\PartialSeparator.cs" />
+     <Compile Include="Assets\Exploder\Exploder\Core\Tasks\Postprocess.cs" />
+     <Compile Include="Assets\Exploder\Exploder\Core\Tasks\PostprocessCrack.cs" />
+     <Compile Include="Assets\Exploder\Exploder\Core\Tasks\PostprocessExplode.cs" />
+     <Compile Include="Assets\Exploder\Exploder\Core\Tasks\Preprocess.cs" />
+     <Compile Include="Assets\Exploder\Exploder\Explodable.cs" />
+     <Compile Include="Assets\Exploder\Exploder\ExploderObject.cs" />
+     <Compile Include="Assets\Exploder\Exploder\ExploderOption.cs" />
+     <Compile Include="Assets\Exploder\Exploder\Fragments\Fragment.cs" />
+     <Compile Include="Assets\Exploder\Exploder\Fragments\FragmentDeactivation.cs" />
+     <Compile Include="Assets\Exploder\Exploder\Fragments\FragmentOptions.cs" />
+     <Compile Include="Assets\Exploder\Exploder\Fragments\FragmentPool.cs" />
+     <Compile Include="Assets\Exploder\Exploder\Fragments\FragmentSFX.cs" />
+     <Compile Include="Assets\Exploder\Exploder\Utils\Compatibility.cs" />
+     <Compile Include="Assets\Exploder\Exploder\Utils\ExploderProfiler.cs" />
+     <Compile Include="Assets\Exploder\Exploder\Utils\ExploderSingleton.cs" />
+     <Compile Include="Assets\Exploder\Exploder\Utils\ExploderSlowMotion.cs" />
+     <Compile Include="Assets\Exploder\Exploder\Utils\ExploderUtils.cs" />
+     <Compile Include="Assets\Exploder\Exploder\Utils\HUDFPS.cs" />
+     <Compile Include="Assets\Exploder\Exploder\Utils\Hull2D.cs" />
+     <Compile Include="Assets\Exploder\Exploder\Utils\SingletonTemplate.cs" />
+     <Compile Include="Assets\Exploder\Playmaker\CrackObjectAction.cs" />
+     <Compile Include="Assets\Exploder\Playmaker\CrackRadiusAction.cs" />
+     <Compile Include="Assets\Exploder\Playmaker\ExplodeCrackedAction.cs" />
+     <Compile Include="Assets\Exploder\Playmaker\ExplodeObjectAction.cs" />
+     <Compile Include="Assets\Exploder\Playmaker\ExplodeRadiusAction.cs" />
+     <Compile Include="Assets\Exploder\Tests\DestroyedObject_Test.cs" />
+     <Compile Include="Assets\Exploder\Tests\ExploderTester.cs" />
+     <Compile Include="Assets\Exploder\Tests\FragmentCountTest.cs" />
+     <Compile Include="Assets\Exploder\Tests\FragmentCountTestMultiple.cs" />
+     <Compile Include="Assets\Exploder\Tests\FragmentCrackCountTest.cs" />
+     <Compile Include="Assets\Exploder\Tests\TestCase.cs" />
+     <Compile Include="Assets\Resources\CoinScript.cs" />
+     <Compile Include="Assets\Resources\Pusher.cs" />
+     <Compile Include="Assets\Resources\emitterScript.cs" />
+     <Compile Include="Assets\Resources\emitterScripts.cs" />
+     <None Include="Assets\Exploder\Demo\Shaders\VertexColor.shader" />
+     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
+     <None Include="Assets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
+     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
+     <None Include="Assets\Exploder\Exploder\3rd\P2T.txt" />
+     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="P2T">
+ <HintPath>/Users/kenakaibashi/unity/Glass_test2/Assets/Exploder/Exploder/3rd/P2T.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{DD4AC316-AF02-2476-90B5-CC769D32D520}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
